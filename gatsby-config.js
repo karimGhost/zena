@@ -6,5 +6,10 @@ module.exports = {
     title: `Zena`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+
+
+
+
+  ],
 }

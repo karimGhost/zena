@@ -1,0 +1,354 @@
+.Links a{
+font-size: 1.7em;
+color: white;
+margin: 20px;
+padding: 10px;
+font-weight: bold;
+text-shadow: 1px 1.3px 1.7px rgb(99, 99, 98);
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*
+
+
+
+
+.Links a:nth-child(1), .Links a:nth-child(2), .Links a:nth-child(3){
+    position: relative;
+    left: 0;
+    right: 0;
+    color: transparent;
+    overflow: hidden;
+    text-shadow: 2px 2px  2.9px  rgb(192, 190, 190);
+
+}
+
+.Links a:nth-child(1):hover{
+    text-shadow: 2px 2px  2.9px  rgba(192, 190, 190, 0);
+
+}
+
+.Links a:nth-child(2):hover{
+    text-shadow: 2px 2px  2.9px  rgba(192, 190, 190, 0);
+
+}
+
+.Links a:nth-child(3):hover{
+    text-shadow: 2px 2px  2.9px  rgba(192, 190, 190, 0);
+
+}
+
+
+
+.Links a:nth-child(1)::before{
+    content: 'Home';
+position: absolute;
+left: 10px;
+right: 10px;
+top: 10px;
+bottom: 10px;
+transition-duration: 0.2s ease;
+    color: rgb(255, 255, 255);
+transition: ease 0.40s;
+  z-index: 1;
+
+    
+    }
+
+    .Links a:nth-child(2)::before{
+        content: 'Trending';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        transition-duration: 0.2s ease;
+            color: rgb(255, 255, 255);
+            transition: ease 0.40s;
+          z-index: 1;
+    }
+
+    .Links a:nth-child(3)::before{
+        content: 'About';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        transition-duration: 0.2s ease;
+            color: rgb(255, 255, 255);
+            transition: ease 0.40s;
+          z-index: 1;
+    }
+
+
+    .Links a:nth-child(1)::after{
+        content: 'Home';
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: -50px;
+    bottom: 10px;
+    transition-duration: 1.2s ease;
+    transition: ease 0.44s;
+        
+        }
+
+        .Links a:nth-child(2)::after{
+            content: 'Trending';
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: -50px;
+            bottom: 10px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.44s;
+             
+        }
+
+
+        .Links a:nth-child(3)::after{
+            content: 'About';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: -50px;
+        bottom: 10px;
+        transition-duration: 1.2s ease;
+        transition: ease 0.44s;
+        
+            }
+    
+
+        
+        .Links a:nth-child(1):hover::after{
+            color: rgb(15, 10, 10);
+            top: 10px;
+            z-index: 2;
+            border-bottom: 1px solid white;
+        }
+
+        .Links a:nth-child(2):hover::after{
+            color: rgb(15, 10, 10);
+            top: 10px;
+            z-index: 2;
+            border-bottom: 1px solid white;
+        }
+
+        .Links a:nth-child(3):hover::after{
+            color: rgb(15, 10, 10);
+            top: 10px;
+            z-index: 2;
+            border-bottom: 1px solid white;
+        }
+
+
+        .Links a:nth-child(1):hover::before{
+          content: "";
+           
+            z-index: 2;
+            border-bottom: 1px solid white;
+            bottom: -20px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.24s;
+            top: 20px;
+        }
+
+        .Links a:nth-child(2):hover::before{
+            content: "";
+           
+            z-index: 2;
+            border-bottom: 1px solid white;
+            bottom: -20px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.24s;
+            top: 20px;
+        }
+
+        .Links a:nth-child(3):hover::before{
+            content: "";
+           
+            z-index: 2;
+            border-bottom: 1px solid white;
+            bottom: -20px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.24s;
+            top: 20px;
+        }
+
+
+
+*/
+
+
+
+.Links{
+    display: flex;
+margin-left: auto;
+
+
+}
+
+.logo{
+font-size: 2.5em;
+padding: 0.50em;
+font-weight: bold;
+text-shadow: 1px 2px rgb(122, 118, 118);
+
+font-family: 'Rubik Vinyl', cursive;
+
+}
+
+.login{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.login a{
+    color: rgb(255, 255, 255);
+    font-size:1.3rem;
+margin-top: 25px;
+font-weight: bold;
+}
+.login a:hover{
+color: rgb(112, 111, 111)
+}
+
+
+nav{
+    border-bottom: 1px solid white;
+}
+
+.Humberger{
+    display: none;
+}
+
+
+/* drawer bar  */
+
+.Linksbar{
+    display: flex;
+    flex-direction: column;
+    color: black;
+margin-top: 100px;
+
+}
+
+
+
+.navcolor{
+    height: max-content;
+
+}
+
+.Con{
+ z-index: 20;
+ backdrop-filter: blur(20px);
+background-color: rgba(255, 248, 248, 0.171);
+height: max-content;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+flex-direction: column;
+
+}
+
+.Linksbar a{
+    font-size: 1.8rem;
+    color: rgb(14, 12, 12);
+    font-weight: bold;
+    padding: 20px 10px;
+
+transition: 2s ease;
+    
+}
+
+.logow{
+    justify-self: left;
+    text-align: left;
+    padding: auto;
+    font-size: 1.6rem;
+    position: absolute;
+color: black;
+left: 16px;
+top: 16px;
+}
+
+
+.logsin{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.logsin a{
+    color: rgb(2, 0, 0);
+    font-size:1rem;
+margin-top: 25px;
+font-weight: bold;
+
+transition: 2s ease;
+
+}
+.logsin a:hover{
+color: rgb(112, 111, 111)
+}
+
+.navDrawer{
+    color: rgb(2, 0, 0);
+    font-weight: bold;
+    padding-left: 30px;
+padding-top: 50px;
+font-size: 2rem;
+margin-bottom: -55px;
+z-index: 10;
+
+}
+
+@media screen and (max-width: 990px) {
+    .Links{
+        overflow: scroll;
+    }
+    .logo{
+        font-size:  1.6rem;
+    }
+
+    .Humberger{
+        font-size: 2.5rem;
+        margin: 50px 50px 0px 20px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   
+    display: block;
+
+    }
+
+  
+    .Links a{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: rgb(14, 11, 11);
+        transition: 2s ease;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+.isActive{
+    color: rgb(19, 17, 17) !important;
+    }
+
+
+    .Links a:hover{
+        color:rgb(240, 237, 237)
+    }

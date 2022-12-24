@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+ZenaWorld news
 </h1>
 
 ## 🚀 Quick start
@@ -20,12 +20,7 @@
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+   
 
 3.  **Open the code and start customizing!**
 
